@@ -1,0 +1,5 @@
+main()
+{
+	*(char far*)(0xb80007d0)=0x61;
+	*(char far*)(0xb80007d1)=0x02;
+}
